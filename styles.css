@@ -1,0 +1,174 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.main-container {
+    border: 1px solid magenta;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+}
+
+.main {
+    border: 1px solid slateblue;
+    background-image: url(./WhatsApp\ Image\ 2021-07-11\ at\ 03.52.26.jpeg);
+    margin: 7px 9px 7px 0;
+    border-radius: 15px;
+    height: 98.2vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: inherit;
+
+}
+
+.title {
+    width: 11%;
+    padding-left: 61px;
+    font-family:  Montserrat;
+    font-size: 40;
+    letter-spacing: 1px;
+}
+
+h1, .nav-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+   
+}
+
+.nav-container {
+    width: 11%;
+    text-align: right;
+    margin-top: 38px;
+    font-family: Quicksand;
+    font-weight: 300;
+}
+
+.nav-container ul{
+    list-style: none;
+}
+
+.nav-container ul li {
+    margin: 17px;
+}
+
+.name-style {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.makeup {
+    margin: 0;
+    font-family: ballet;
+    font-size: 41px;
+}
+
+.studio {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.footer {
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(251 250 250 / 46%);
+    bottom: 0px;
+    position: absolute;
+    width: 91.08%;
+    padding: 59px;
+    box-shadow: rgb(253 247 247) 0px -6px 45px -2px;   
+}
+
+
+.footer-left {
+    width: 402px;
+    display: flex;
+    width: 30%;
+}
+
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+span {
+    background: #fff;
+    border-radius: 50%;
+}
+
+.footer-text {
+    border-right: 2px solid #fff;
+    text-align: right;
+}
+
+.footer-text p {
+ margin: 0 14px;
+}
+
+.woman {
+    width: fit-content;
+    margin-left: 9px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.meta-text  {
+    margin: 0px;
+    text-align: end;
+}
+
+ 
+
+
+     
+ @media (max-width: 700px) {
+     .main-container {
+         width: 100%;
+         position: relative;
+     }
+
+     .main {
+         overflow: hidden;
+     }
+
+     .title {
+        width: 100%;
+        padding-left: 40px;
+        justify-content: flex-start;
+ }
+
+ .nav-container {
+    width: 29%;
+    font-size: 9px;
+    font-family: Quicksand;
+}
+
+    .name-style {
+        margin-top: 79px;
+    }
+
+.footer {
+    display: flex;
+    height: 81px;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+    .footer-text {
+        font-size: 6px;
+    }
+
+    .footer-left {
+        width: 68%;
+    }
+}
